@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.main{
+    position: relative;
+    display: flex;
+}
+img{
+    height: 250px;
+    padding-left: 20px;
+    /* width: 250px; */
+    border-radius: 10%;
+    transform: translateX(-20px);
+}
+.left-side{
+    color: azure;
+    background-color: #344955;
+    width: 320px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.line{
+    height: 2px;
+    background-color: rgb(188, 161, 8);
+    transform: translateY(-5px);
+}
+.box{
+    margin-left: 22px;
+}
+h6{
+    color: white;
+    font-weight: lighter;
+}
+h3{
+    font-weight: 600;
+    color: white;
+}
+h4{
+    color: chocolate;
+    background-color: rgba(128, 128, 128, 0.235);
+    width: 100%;
+    margin-left: 20px;
+}
+.side-board{
+    display: flex;
+}
+.side{
+    height: 20px;
+    width: 30px;
+    object-fit: cover;
+}
+.info{
+    margin-left: 45px;
+}
+.right-side{
+    width: 100%;
+    background-color: #50727B;
+    padding-bottom: 50px;
+}
+.title{
+    background-color: #78A083;
+    /* width: 100%; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    margin-top: 60px;
+}
+.name{
+    font-size: 50px;
+    color: black;
+}
+.last{
+    color: black;
+}
+.profession{
+    color: rgb(255, 118, 6);
+    /* font-weight: lighter; */
+    background-color: transparent;
+}
+.fs{
+    color: rgb(255, 118, 6);
+}
+.middle{
+    margin-left: 50px;
+    padding-right: 40px;
+}
+.line-right-side{
+    background-color: rgba(128, 128, 128, 0.726);
+}
+.para{
+    display: flex;
+}
+.p-right{
+    margin-left: 40px;
+}
+.date{
+    width: 120px;
+}
+.company{
+    color: rgb(255, 118, 6);
+}
+.skills{
+    display: flex;
+    margin-left: 180px;
+    gap: 100px;
+    color: orange;
+    font-weight: bold;
+}
